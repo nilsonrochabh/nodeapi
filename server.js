@@ -9,6 +9,7 @@ const app = express();
 app.use(express.json());
 app.user(cors());
 //iniciando o bd
+//teste
 mongoose.connect(
     "mongodb://localhost:27017/nodeapi",
     {useNewUrlParser:true}
